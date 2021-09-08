@@ -25,8 +25,8 @@ Metrics/MethodLength:
   Exclude:
     - 'lib/facter/custom_facts/util/values.rb'
     - 'lib/facter/custom_facts/util/confine.rb'
-    - 'lib/facter/custom_facts/core/execution/windows.rb'
-    - 'lib/facter/custom_facts/core/execution/base.rb'
+    - 'lib/facter/core/execution/windows.rb'
+    - 'lib/facter/core/execution/base.rb'
     - 'lib/facter/framework/detector/os_detector.rb'
     - 'lib/facter/resolvers/bsd/ffi/ffi_helper.rb'
     - 'install.rb'
@@ -59,14 +59,14 @@ Metrics/AbcSize:
     - 'lib/facter/custom_facts/util/loader.rb'
     - 'lib/facter/custom_facts/util/confine.rb'
     - 'lib/facter/custom_facts/util/confine.rb'
-    - 'lib/facter/custom_facts/core/execution/windows.rb'
-    - 'lib/facter/custom_facts/core/execution/base.rb'
+    - 'lib/facter/core/execution/windows.rb'
+    - 'lib/facter/core/execution/base.rb'
     - 'lib/facter/custom_facts/core/resolvable.rb'
     - 'lib/facter/resolvers/bsd/ffi/ffi_helper.rb'
     - 'install.rb'
     - 'scripts/generate_changelog.rb'
     - 'lib/facter/resolvers/aix/ffi/ffi_helper.rb'
-    - 'lib/facter/custom_facts/core/execution/popen3.rb'
+    - 'lib/facter/core/execution/popen3.rb'
     - 'lib/facter.rb'
     - 'lib/facter/framework/parsers/query_parser.rb'
     - 'lib/facter/framework/core/fact_manager.rb'
@@ -75,8 +75,8 @@ Metrics/PerceivedComplexity:
   Exclude:
     - 'lib/facter/custom_facts/util/values.rb'
     - 'lib/facter/custom_facts/util/confine.rb'
-    - 'lib/facter/custom_facts/core/execution/windows.rb'
-    - 'lib/facter/custom_facts/core/execution/posix.rb'
+    - 'lib/facter/core/execution/windows.rb'
+    - 'lib/facter/core/execution/posix.rb'
     - 'install.rb'
     - 'lib/facter/resolvers/aix/ffi/ffi_helper.rb'
 
@@ -84,8 +84,8 @@ Metrics/CyclomaticComplexity:
   Exclude:
     - 'lib/facter/custom_facts/util/values.rb'
     - 'lib/facter/custom_facts/util/confine.rb'
-    - 'lib/facter/custom_facts/core/execution/windows.rb'
-    - 'lib/facter/custom_facts/core/execution/posix.rb'
+    - 'lib/facter/core/execution/windows.rb'
+    - 'lib/facter/core/execution/posix.rb'
     - 'lib/facter/framework/detector/os_detector.rb'
     - 'install.rb'
     - 'scripts/generate_changelog.rb'
@@ -145,8 +145,8 @@ Style/FrozenStringLiteralComment:
     - 'spec/custom_facts/core/execution/windows_spec.rb'
     - 'spec/custom_facts/core/execution/posix_spec.rb'
     - 'lib/facter/custom_facts/util/resolution.rb'
-    - 'lib/facter/custom_facts/core/execution/windows.rb'
-    - 'lib/facter/custom_facts/core/execution/posix.rb'
+    - 'lib/facter/core/execution/windows.rb'
+    - 'lib/facter/core/execution/posix.rb'
 
 Style/TrivialAccessors:
   AllowDSLWriters: true
@@ -160,8 +160,8 @@ Style/DoubleNegation:
   Exclude:
     - 'lib/facter/custom_facts/util/confine.rb'
     - 'lib/facter/custom_facts/util/confine.rb'
-    - 'lib/facter/custom_facts/core/execution/windows.rb'
-    - 'lib/facter/custom_facts/core/execution/posix.rb'
+    - 'lib/facter/core/execution/windows.rb'
+    - 'lib/facter/core/execution/posix.rb'
 
 Style/MethodMissingSuper:
   Exclude:
